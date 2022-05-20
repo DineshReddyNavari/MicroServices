@@ -2,8 +2,6 @@ package com.zensar.productservice.service;
 
 import java.util.List;
 
-import org.springframework.stereotype.Service;
-
 import com.zensar.productservice.entity.Product;
 
 

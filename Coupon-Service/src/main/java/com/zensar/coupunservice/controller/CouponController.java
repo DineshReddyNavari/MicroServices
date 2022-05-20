@@ -16,7 +16,7 @@ import com.zensar.coupunservice.entity.Coupon;
 import com.zensar.coupunservice.service.CouponService;
 
 @RestController
-@Controller
+
 public class CouponController {
 	@Autowired
 	CouponService service;

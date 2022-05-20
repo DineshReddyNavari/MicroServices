@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.zensar.coupunservice.Repository.CouponRepository;
 import com.zensar.coupunservice.entity.Coupon;
 
-@Service(value = "CouponService.java")
+@Service
 public class CouponServiceImpl implements CouponService{
 
 	@Autowired

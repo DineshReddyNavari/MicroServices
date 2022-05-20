@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 public class Coupon {
-	@Id
+	@javax.persistence.Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int couponId;
 	private String couponCode;

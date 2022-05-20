@@ -1,10 +1,10 @@
-package com.zensar.coupunservice;
+package com.zensar.spring.cloud;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CouponServiceApplicationTests {
+class DiscoveryServerApplicationTests {
 
 	@Test
 	void contextLoads() {

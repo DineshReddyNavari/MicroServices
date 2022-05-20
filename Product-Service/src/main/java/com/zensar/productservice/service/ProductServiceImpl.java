@@ -16,7 +16,11 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public Product insertProduct(Product product) {
-		
+		Product product1 = new Product();
+		product1.setProductId(product.getProductId());
+		product1.setProductName(product.getProductName());
+		product1.setPrice(product.getPrice());
+		product1.setDiscription(product.getDiscription());
 		return repository.save(product);
 	}
 

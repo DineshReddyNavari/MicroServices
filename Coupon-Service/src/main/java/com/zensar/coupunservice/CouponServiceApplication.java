@@ -6,8 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories
+@EnableJpaRepositories({"com.zensar.couponservice"})
 @ComponentScan("com.zensar")
+
 public class CouponServiceApplication {
 
 	public static void main(String[] args) {
